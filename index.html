@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Portfolio of Sushil Yadav — Computer Science student and aspiring software developer.">
+<title>Sushil Yadav | Portfolio</title>
+<style>
+:root{--bg:#070d19;--panel:#101a2b;--panel2:#0c1524;--text:#f4f7ff;--muted:#aab8cf;--blue:#32a9ff;--line:#243650;--gold:#ffc85c}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#102a4a 0,transparent 34%),var(--bg);color:var(--text);font:16px/1.6 Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+a{color:inherit;text-decoration:none}.wrap{width:min(1160px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:#070d19eF;border-bottom:1px solid var(--line);backdrop-filter:blur(14px)}
+nav{min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{font-weight:800;font-size:1.25rem;letter-spacing:.2px}.brand span{color:var(--blue)}
+nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;color:var(--muted);font-size:.92rem}nav a:hover{color:var(--blue)}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:30px;padding:66px 0 56px;min-height:490px}
+.eyebrow{display:inline-block;border:1px solid #24517a;background:#10233a;color:#9bd7ff;padding:6px 13px;border-radius:99px;font-size:.85rem}
+h1{font-size:clamp(2.8rem,6vw,5rem);line-height:1.03;margin:18px 0 12px;letter-spacing:-2px}h1 span{color:var(--blue)}
+.lead{font-size:1.2rem;font-weight:600;margin:0 0 12px}.intro{color:var(--muted);max-width:590px}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:999px;border:1px solid var(--blue);font-weight:700}.primary{background:linear-gradient(110deg,#16b7ff,#337dff);color:#04101f;border:0}.social{display:flex;gap:16px;color:#b8cbe2;font-size:.93rem}.portrait-wrap{justify-self:center;position:relative;width:min(100%,390px)}.portrait-wrap:before{content:"";position:absolute;inset:8% -4%;border:2px solid #168de0;border-radius:48% 52% 44% 56%;filter:drop-shadow(0 0 20px #087dcc77)}.portrait{position:relative;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 25%;border-radius:46% 46% 20px 20px;border:5px solid #172b45;box-shadow:0 20px 60px #0009}
+section{padding:28px 0;scroll-margin-top:85px}.section-title{font-size:1.65rem;margin:0 0 18px}.section-title:before{content:"";display:inline-block;width:27px;height:4px;background:var(--blue);margin:0 11px 6px 0;border-radius:9px}
+.grid{display:grid;gap:18px}.two{grid-template-columns:1fr 1fr}.three{grid-template-columns:repeat(3,1fr)}.card{background:linear-gradient(145deg,#111e31,#0b1423);border:1px solid var(--line);border-radius:17px;padding:22px;box-shadow:0 12px 32px #0002}.muted{color:var(--muted)}.tags{display:flex;flex-wrap:wrap;gap:10px}.tag{border:1px solid #315071;background:#12243a;border-radius:99px;padding:7px 13px;font-size:.9rem}
+.timeline{border-left:2px solid #238ed5;margin-left:9px;padding-left:22px}.timeline article{position:relative;margin:0 0 18px}.timeline article:before{content:"";position:absolute;left:-29px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--blue);box-shadow:0 0 0 4px #12304b}
+.project h3,.timeline h3{margin:0 0 4px}.project p{color:var(--muted);margin:4px 0 10px}.pill{font-size:.78rem;color:#9bd7ff;background:#102943;border:1px solid #244d70;padding:4px 9px;border-radius:99px}
+.certs{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.cert{padding:10px;background:#0b1423;border:1px solid var(--line);border-radius:13px}.cert img{width:100%;height:175px;object-fit:contain;background:#fff;border-radius:8px}.cert h3{font-size:1rem;margin:9px 2px 2px}.cert p{font-size:.86rem;color:var(--muted);margin:0 2px 5px}
+.contact a{color:#a9dcff;overflow-wrap:anywhere}.contact-line{margin:8px 0}.footer{border-top:1px solid var(--line);margin-top:30px;padding:22px 0;color:var(--muted);font-size:.9rem;text-align:center}
+@media(max-width:800px){nav{flex-wrap:wrap;padding:12px 0}nav ul{width:100%;overflow:auto;gap:17px;padding-bottom:5px}.hero{grid-template-columns:1fr;padding:44px 0}.portrait-wrap{grid-row:1;width:min(75%,310px)}.two,.three,.certs{grid-template-columns:1fr}.cert img{height:210px}.card{padding:18px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="brand" href="#home">SY <span>Sushil Yadav</span></a>
+<ul><li><a href="#about">About</a></li><li><a href="#education">Education</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#achievements">Achievements</a></li><li><a href="#contact">Contact</a></li></ul>
+</nav></div></header>
+<main class="wrap">
+<section class="hero" id="home">
+<div>
+<span class="eyebrow">B.Tech Student · Aspiring Software Developer</span>
+<h1>Hello, I'm<br><span>Sushil Yadav</span></h1>
+<p class="lead">Computer Science Student | Aspiring Software Developer</p>
+<p class="intro">Currently pursuing my 3rd year of B.Tech at Shree L. R. Tiwari College of Engineering. I’m interested in web development, AI, and building practical applications with a team.</p>
+<div class="actions"><a class="btn primary" href="#projects">Explore my projects ↗</a><a class="btn" href="#contact">Let's connect</a></div>
+<div class="social"><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/yadav-sushilll15/" target="_blank" rel="noreferrer">Instagram</a><a href="mailto:sushilyadav321@gmail.com">Email</a></div>
+</div>
+<div class="portrait-wrap"><img class="portrait" src="assets/portrait.jpg" alt="Portrait of Sushil Yadav"></div>
+</section>
+<section id="about"><div class="card">
+<h2 class="section-title">About Me</h2>
+<p>I’m Sushil Yadav, a 22-year-old Computer Science student currently studying in the 3rd year of B.Tech at Shree L. R. Tiwari College of Engineering. I’m an aspiring software developer interested in web development, AI, and building useful applications.</p>
+<p class="muted">I enjoy learning new technologies, solving problems, and collaborating with a team. My projects have been developed with the support of AI tools and teamwork. I’m continuing to build my skills through hands-on practice and projects.</p>
+</div></section>
+<section id="education"><h2 class="section-title">Education</h2><div class="card timeline">
+<article><h3>B.Tech — Computer Science</h3><div class="muted">3rd Year · Currently studying</div><div>Shree L. R. Tiwari College of Engineering</div></article>
+<article><h3>Alpha 8.0</h3><div class="muted">Previously studied</div></article>
+</div></section>
+<section id="skills"><h2 class="section-title">Skills & Technologies</h2><div class="card"><div class="tags">
+<span class="tag">C++</span><span class="tag">JavaScript</span><span class="tag">TypeScript</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Python (Basic)</span><span class="tag">Node.js</span><span class="tag">Git</span><span class="tag">Microsoft Power BI</span><span class="tag">Web Development</span><span class="tag">Problem Solving</span><span class="tag">AI Tools</span>
+</div></div></section>
+<section id="projects"><h2 class="section-title">Projects</h2><p class="muted">These projects were created with AI assistance and team collaboration.</p><div class="grid two">
+<div class="card project"><h3>Blood Donation Management Website</h3><p>A web project focused on organizing blood donor and donation information.</p><span class="pill">Team project · AI-assisted</span></div>
+<div class="card project"><h3>MedCycle</h3><p>A project exploring a practical digital solution in the healthcare space.</p><span class="pill">Team project · AI-assisted</span></div>
+<div class="card project"><h3>Spotify-inspired Music Web Application</h3><p>A music-focused web application inspired by familiar streaming experiences.</p><span class="pill">Team project · AI-assisted</span></div>
+<div class="card project"><h3>To-Do List Web Application</h3><p>A simple productivity app concept for organizing tasks and activities.</p><span class="pill">Team project · AI-assisted</span></div>
+</div></section>
+<section id="achievements"><h2 class="section-title">Hackathons & Certificates</h2><div class="certs">
+<div class="cert"><img src="assets/hackcelestial.jpg" alt="HackCelestial 3.0 certificate"><h3>HackCelestial 3.0</h3><p>Certificate of Achievement · Participation · Tech Alegria 2026 · Pillai University</p></div>
+<div class="cert"><img src="assets/mochatrade.jpg" alt="Mochatrade YC 26 hackathon certificate"><h3>Mochatrade YC 26 Hackathon</h3><p>Certificate of Participation · Team Ghost Coders · Shree L. R. Tiwari College of Engineering</p></div>
+<div class="cert"><img src="assets/elevate.jpg" alt="Elevate 1.0 finalist certificate"><h3>Elevate 1.0</h3><p>Finalist · Dwarakadas J. Sanghvi College of Engineering · October 2026</p></div>
+</div></section>
+<section id="contact"><div class="card contact"><h2 class="section-title">Contact Me</h2><p class="muted">Have an opportunity or a project idea? Feel free to get in touch.</p>
+<p class="contact-line">Email: <a href="mailto:sushilyadav321@gmail.com">sushilyadav321@gmail.com</a></p>
+<p class="contact-line">Phone: <a href="tel:+918097094802">+91 80970 94802</a></p>
+<p class="contact-line">LinkedIn: <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">Add your LinkedIn profile URL</a></p>
+<p class="contact-line">Instagram: <a href="https://www.instagram.com/yadav-sushilll15/" target="_blank" rel="noreferrer">@yadav-sushilll15</a></p>
+</div></section>
+</main>
+<footer class="footer"><div class="wrap">© <span id="year"></span> Sushil Yadav · Keep learning, keep building.</div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
